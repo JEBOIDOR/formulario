@@ -1,0 +1,57 @@
+
+
+.form{
+    display: grid;
+    width: 25dvw;
+    position: relative
+ }
+
+.form-title{
+    font-size: 2.15rem;
+}
+
+#form-container input{
+    font-size: 1.15rem;
+    border-radius: 8px;
+    border: none;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #e6e6e6;
+}
+
+#form-container textarea{
+    background-color: #e6e6e6;
+    border: none;
+    padding: 1em;
+    font-size: 1.15rem;
+}
+
+.input-icon{
+    position: absolute;
+}
+
+#user-icon{
+    right: .5rem;
+    top: 2rem
+}
+
+#mail-icon{
+    right: .5rem;
+    top: 8rem
+}
+
+#message-icon{
+    right: .5rem;
+    top: 13rem;
+}
+
+#form-container button{
+    background-color: #806dd7;
+    margin-top: 1.5rem;
+    height: 3em;
+    border-radius: 1.5em;
+    border: none;
+    color: #f2f2f2f2;
+    background-color: #806dd7;
+    font-size: 1.15rem;
+}
