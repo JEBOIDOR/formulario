@@ -1,11 +1,13 @@
 import "./App.css";
 import { Form } from "../components/Form/Form";
+import ImageComponent from "../components/ImageC/ImageC";
 function App() {
+  const imageSrc = "/images/contact-form-bg.png";
   return (
     <div>
       <div id="center-container">
         <div id="image-aside">
-          <img src="/images/contact-form-bg.png" alt="" />
+          <ImageComponent src={imageSrc} />
         </div>
         <Form />
       </div>
